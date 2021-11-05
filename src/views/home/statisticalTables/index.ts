@@ -1,0 +1,5 @@
+export { default as VehiclesInMine } from './vehiclesInMine.vue'
+export { default as PersonInfoInCar } from './personInfoInCar.vue'
+export { default as VehicleInMineChange } from './vehicleInMineChange.vue'
+export { default as VehiclesInClassTeam } from './vehiclesInClassTeam.vue'
+export { default as VechilesInArea } from './vechilesInArea.vue'

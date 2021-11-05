@@ -1,0 +1,5 @@
+export { default as n6 } from '@/assets/images/light/n6.png'
+export { default as n7 } from '@/assets/images/light/n7.png'
+export { default as n8 } from '@/assets/images/light/n8.png'
+export { default as n9 } from '@/assets/images/light/n9.png'
+export { default as n10 } from '@/assets/images/light/n10.png'
