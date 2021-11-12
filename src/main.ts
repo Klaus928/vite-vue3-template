@@ -7,7 +7,7 @@ import { setupRouter } from '@/router'
 import { setupStore } from '@/store'
 import '@/assets/css/base.less'
 const app = createApp(App)
-// 注册全局组件
+// 注册自定义全局组件
 registerGlobComp(app)
 // 注册路由
 setupRouter(app)

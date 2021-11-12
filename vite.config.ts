@@ -5,8 +5,6 @@ import vue from '@vitejs/plugin-vue'
 import eslintPlugin from 'vite-plugin-eslint'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { wrapperEnv, getFileName } from './build/utils'
-// import image from '@rollup/plugin-image'
-import { viteCommonjs } from '@originjs/vite-plugin-commonjs'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 function pathResolve(dir: string) {
@@ -87,7 +85,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       vue(),
       eslintPlugin(),
       tsconfigPaths(),
-      // viteCommonjs(),
       Components({
         resolvers: [ElementPlusResolver()],
         dts: true, // enabled by default if `typescript` is installed

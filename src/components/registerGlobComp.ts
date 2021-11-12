@@ -1,2 +1,8 @@
 import { App } from 'vue'
-export function registerGlobComp(app: App): void {}
+const components = []
+export function registerGlobComp(app: App): void {
+  // register Global Component here
+  components.forEach((item) => {
+    app.component(item.name, item)
+  })
+}
